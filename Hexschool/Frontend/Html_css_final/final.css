@@ -70,17 +70,13 @@ border-spacing: 0;
     font-weight: bold;    
 }
 
+.SNSs li{
+    align-items: center;
+}
 
 .SNSs a{
     text-decoration: none; 
     margin-right: 10px;
-    align-items: center;
-}
-
-
-.FB,.TW{
-    display: block;
- 
 }
 
 .FB a{
@@ -100,19 +96,20 @@ border-spacing: 0;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    align-items: center;
 }
 
 .headlogo{
     background-image: url(img/logo.png);
     display: block;
     width: 240px;
-   height: 50px;
+    height: 50px;
     text-indent: 101%;
     white-space: nowrap;
     overflow: hidden;
 }
 
-.menu ul{
+.header ul{
     display: flex;
     margin-top: 5px;
 }
@@ -128,6 +125,7 @@ border-spacing: 0;
     font-weight: 1000;
     display: block;
     padding: 10px;
+    border-bottom: 3px solid transparent;
 }
 
 .menu li:hover{
@@ -144,7 +142,7 @@ border-bottom: #99ebd6 3px solid;
     margin-bottom: 20px;
 }
 
-.banner h1{
+.banner h2{
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
   color: white;
@@ -156,67 +154,76 @@ border-bottom: #99ebd6 3px solid;
 .course{
     display: flex;
     justify-content:space-between;
-    margin-top: 5px;
 }
 
-.box{
+.course .box{
     box-shadow: 0.2px 0.2px 3px grey;
-    margin: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 14px;
+    padding: 10px;
 }
 
 
 
-.box h2{
+.course .box h2{
     color:#000;
     text-align: center;
     font-weight: bold;
-    
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 1px;
 }
 
-.box p{
-    padding: 15px;
+.course .box h3{
+   
+    padding-left: 20px;
+ 
+}
+
+
+
+.course .box p{
+    padding-left: 20px;
+    padding-right: 20px;
     line-height: 1.5;
     font-size: 14px;
 }
 
-.box li{
+.course .box li{
     line-height: 1.5;
-    font-size: 14px;
-    padding-top: 5px;
-
+    list-style-type: disc;
 }
 
-.box ul{
-    padding-left: 15px;
-    font-size: 14px;
-    margin-top: 10px;
+.course .box ul{
+    padding-left: 35px;
 }
 
-h3{
+.content h2{
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 1px;
     font-size: 32px;
     text-align: center;
 }
 
-table{
+.content table{
     font-size: 18px;
     margin: 30px;
     width: 90%;
     margin-bottom: 80px;
 }
 
-tr{
+.content tr{
   border-top: solid 1px #DDDDDD;
   border-bottom: solid 1px #DDDDDD;
 }
 
-td {
+.content td {
     line-height: 30px;
     padding: 10px;
 }
 
-th{
+.content th{
     background-color: #f7f7f7;
     font-weight: bold;
     padding: 20px 10px;
@@ -228,39 +235,36 @@ th{
     font-weight: bold;
 }
 
-table tr:hover {
+.content table tr:hover {
     background-color: #b5f7e6;
 }
 
 .contact_info{
-    width: 1000px;
-    height: 450px;
     background: linear-gradient(#00674d,#009872);
     color: #fff;
-    padding: 20px;
+    padding: 50px 30px 50px 30px;
 }
 
-h4{
+.contact_info h2{
     text-align: center;
     font-size: 30px;
     line-height: 1.5;
 }
 
-textarea{
+.contact_info textarea{
   resize: none;
   border: none;
   border-radius: 5px;
   width: 50%;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
-form{
+.contact_info form{
     display: flex;
 }
 
 .contact label{
-    display: flex;
     margin-top: 5px;
     margin-left: 50px;
     font-weight: bold;
@@ -304,6 +308,7 @@ form{
     margin: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footerlogo{
@@ -320,10 +325,12 @@ form{
 .footerlogo:hover{
     opacity:0.5;
 }
-.contact_us p{
-display:inline;
+
+
+.contact_us li{
+display:flex;
 }
 
-.pink{
+.contact_us .pink{
     color:#e75799;
 }
