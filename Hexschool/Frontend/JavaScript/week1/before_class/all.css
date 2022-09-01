@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*::before,*::after{
+	box-sizing:border-box;
+}
+
+/*wrap*/
+.wrap{
+	font-family: "SF Pro Text","SF Pro Text-Semibold", sans-serif;
+	font-size: 24px;
+	color:#000;
+	line-height: 1.5;
+}
+
+.wrap h1{
+	margin-bottom: 0px;
+	font-size: 80px;
+	line-height: 1.2;
+	border-bottom: 2px #000 solid;
+}
+
+/*content*/
+
+.content{
+	margin: 0auto;
+	width: 1200px 
+}
+
+.content img,h2{
+	margin-top: 50px;
+}
+
+.content .entitle{
+	color: #A00404;
+	font-size: 32px;
+}
+
+.content h2{
+	margin-bottom: 20px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.content p{
+	margin-top: 30px;
+}
+
+/*技能區塊*/
+.content .skill{
+	background-color: #415165;
+	background-repeat: no-repeat;
+	width: 1200px;
+	color: #fff;
+	text-align: center;
+	padding: 30px 200px;
+	margin-top: 20px;
+	margin-bottom: 70px;
+}
+
+
+.skill h2{
+  font-size: 26px;
+  border-bottom: 1px solid #fff;
+  margin-top: 10px;
+}
+
+.skill .entitle{
+	font-weight: lighter;
+	color: #fff;
+	font-size: 26px;
+}
+
+.skill ul{
+	border-left: 1px solid #fff;
+	width: 600px;
+	line-height: 2;
+	text-align: left;
+    padding-left: 20px;
+	margin-left: 300px;
+	margin-bottom: 30px;
+}
+
+/*工作經歷*/
+.workexp ul{
+	margin-left: 40px;
+	border-left: 3px solid rgb(216, 216, 216) ;
+}
+
+.workexp li{
+	margin: 30px;
+	font-weight: bold;
+}
+
+.workexp img{
+	margin: -25px 0px;
+}
+
+.workexp p{
+	font-weight:lighter;
+}
+
+/*footer*/
+footer{
+	background-color: #415165;
+	background-repeat: no-repeat;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 2;
+}
+
+footer h2{
+	font-size: 26px;
+    border-bottom: 1px solid #fff;
+	font-weight: bold;
+	padding-top: 40px;
+}
+
+footer .entitle{
+	font-weight: lighter;
+}
+
+footer a{
+	text-decoration: none;
+	color: #fff;
+}
+
+footer a:hover{
+	opacity: 0.4;
+}
+
+footer ul{
+	font-size: 20px;
+}
+
+footer .snss{
+	display: flex;
+    justify-content: center;
+}
+
+footer .snss li{
+	margin: 20px 10px;
+}
