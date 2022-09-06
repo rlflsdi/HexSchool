@@ -57,6 +57,7 @@ table {
 	font-size: 24px;
 	color:#000;
 	line-height: 1.5;
+	margin: 0 auto;
 }
 
 .wrap h1{
@@ -66,10 +67,21 @@ table {
 	border-bottom: 2px #000 solid;
 }
 
+.skill h2,.skill .entitle, footer h2{
+	font-size: 28px;
+}
+
+.content .skill,.skill .entitle,footer,footer a{
+	color: #fff;
+}
+
+.workexp p,.skill .entitle,footer .entitle{
+	font-weight: lighter;
+}
+
 /*content*/
 
 .content{
-	margin: 0auto;
 	width: 1200px 
 }
 
@@ -80,6 +92,7 @@ table {
 .content .entitle{
 	color: #A00404;
 	font-size: 32px;
+	vertical-align: 4px;
 }
 
 .content h2{
@@ -87,10 +100,7 @@ table {
 	font-size: 40px;
 	font-weight: bold;
 	text-align: left;
-}
-
-.content p{
-	margin-top: 30px;
+	border-bottom: 2px solid #000;
 }
 
 /*技能區塊*/
@@ -98,34 +108,24 @@ table {
 	background-color: #415165;
 	background-repeat: no-repeat;
 	width: 1200px;
-	color: #fff;
 	text-align: center;
 	padding: 30px 200px;
 	margin-top: 20px;
 	margin-bottom: 70px;
 }
 
-
 .skill h2{
-  font-size: 26px;
   border-bottom: 1px solid #fff;
-  margin: 30px;
   text-align: center;
-}
-
-.skill .entitle{
-	font-weight: lighter;
-	color: #fff;
-	font-size: 26px;
 }
 
 .skill ul{
 	border-left: 1px solid #fff;
-	width: 600px;
+	width: 230px;
+	margin: 0 auto;
 	line-height: 2;
 	text-align: left;
     padding-left: 20px;
-	margin-left: 300px;
 	margin-bottom: 30px;
 }
 
@@ -144,34 +144,23 @@ table {
 	margin: -25px 0px;
 }
 
-.workexp p{
-	font-weight:lighter;
-}
-
 /*footer*/
 footer{
 	background-color: #415165;
 	background-repeat: no-repeat;
-	color: #fff;
 	text-align: center;
 	margin: 0 auto;
 	line-height: 2;
 }
 
 footer h2{
-	font-size: 26px;
     border-bottom: 1px solid #fff;
 	font-weight: bold;
 	padding-top: 40px;
 }
 
-footer .entitle{
-	font-weight: lighter;
-}
-
 footer a{
 	text-decoration: none;
-	color: #fff;
 }
 
 footer a:hover{
